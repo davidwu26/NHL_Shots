@@ -10,3 +10,5 @@ This class serves as an object for each player and sets up a Pandas dataframe wi
 ## `DrawRink.py`
 This script draws a plot of an ice rink and a player's shot distribution for a season.
 
+## Example: Steven Stamkos 2017-2018
+![alt text](https://github.com/davidyxwu/NHL-Shot-Map/blob/master/media/stamkos.png)
