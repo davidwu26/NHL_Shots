@@ -2,7 +2,7 @@
 This project scrapes the NHL Statistics API for a given season and returns a shot map for a specified player.
 
 ## `scrapeShots.py`
-This script takes as input a season (Game length must be changed due to COVID seasons and Seattle Kraken Expansion) and saves every player's shot distribution in a text file.
+This script takes as input a season (Game length must be changed due to COVID seasons and Seattle Kraken Expansion) and saves every player's shot distribution in a text file. The script goes game by game as this is how the NHL Statistics API stores shot information. 
 
 ## `Player.py`
 This class serves as an object for each player and sets up a Pandas dataframe with his shot data.
