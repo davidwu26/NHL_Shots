@@ -5,6 +5,8 @@ url = "https://statsapi.web.nhl.com/api/v1/game/{season}{type}{gameNum}/feed/liv
 shotTypes = ["SHOT", "MISSED_SHOT", "BLOCKED_SHOT", "GOAL"]
 
 
+# This function scrapes games for a year 
+
 # Determines number of games before and after Vegas joined league
 def numGames(year):
     if year < 2017:

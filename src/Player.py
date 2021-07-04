@@ -4,6 +4,7 @@ import pandas as pd
 from scrapeShots import getRegularSeasonShots
 from os import path
 
+# This class sets up a Player class with his stats
 class PlayerLog:
     def __init__(self, player, season):
         self.player = player
